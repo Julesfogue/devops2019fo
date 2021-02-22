@@ -1,0 +1,96 @@
+systemctl enable --now cockpit.socket
+    2  ll
+    3  pwd
+    4  whoami
+    5  username -mrs
+    6  uname -rsm
+    7  uname -rs
+    8  cat /etc/*release
+    9  date
+   10  subscription-manager status
+   11  yum install @postgresql
+   12  yum module list
+   13  date
+   14  lsblk
+   15  cat /etc/fstab
+   16  cat /proc/partitions 
+   17  lsblk
+   18  id
+   19  dnf installed list kernel*
+   20  dnf list installed kernel*
+   21  hostname -I
+   22  pwd
+   23  ls
+   24  mv kernel-4.18.0-240.10.1.el8_3.x86_64.rpm /tmp/
+   25  dnf install /tmp/kernel*
+   26  dnf list install kernel*
+   27  dnf list installed kernel*
+   28  history
+   29  cd ..
+   30  history
+   31  su - user1
+   32  hostname -I
+   33  cd
+   34  history
+   35  id
+   36  su - julesfogue
+   37  usermod -a -G jfogue root
+   38  id
+   39  id jfogue
+   40  cat /etc/group |grep jfogue
+   41  su - jfogue
+   42  usermod -a -G jfogue wheel
+   43  cat /etc/group |grep jfogue
+   44  cat /boot/grub2/grubenv
+   45  reboot
+   46  usermod -G jfogue root
+   47  cat /etc/group |grep jfogue
+   48  useradd julesfogue
+   49  passwd julesfogue
+   50  cat /etc/group
+   51  cat /etc/group |grep julesfogue
+   52  usermod -g julesfogue root
+   53  cat /etc/group |grep root
+   54  cat /etc/group |grep julesfogue
+   55  usermod -G julesfogue root
+   56  cat /etc/group |grep root
+   57  cat /etc/group |grep jfogue
+   58  cat /etc/group |grep julesfogue
+   59  usermod -G jfogue root
+   60  cat /etc/group |grep julesfogue
+   61  cat /etc/group |grep jfogue
+   62  visudo
+   63  cat /etc/group |grep wheel
+   64  usermod -G julesfogue wheel
+   65  useradd -G julesfogue wheel
+   66  useradd -g julesfogue wheel
+   67  cat /etc/group |grep wheel
+   68  cat /etc/group |grep julesfogue
+   69  members wheel
+   70  members root
+   71  groups
+   72  cat /etc/group |grep root
+   73  usermod -a -G julesfogue root
+   74  cat /etc/group |grep root
+   75  usermod -a -G julesfogue wheel
+   76  cat /etc/group |grep wheel
+   77  useradd -a -G jules root
+   78  useradd jules 
+   79  passwd jules
+   80  usermod -a -G jules wheel
+   81  cat /etc/group |grep wheel
+   82  man usermod
+   83  hostname -I
+   84  cat /etc/group |grep root
+   85  cat /etc/group |grep wheel
+   86  useradd julesbertrand
+   87  passwd julesbertrand 
+   88  usermod -a -G julesbertrand wheel
+   89  cat /etc/group |grep julesbertrand
+   90  usermod -a -G julesbertrand root
+   91  cat /etc/group |grep julesbertrand
+   92  ls
+   93  hostname -I
+   94  history
+
+
